@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Task 12.7</title>
+
+<!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/font.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--CSS end-->
+
+</head>
+
+<body>
+	
+    <div class="input-form">
+    	<form>
+        	<div class="form-header">
+            	<h2>Task 12.7</h2>
+                <p>The first INPUT field takes in a number representing the temperature in Celsius and returns the temperature in Fahrenheit. The second INPUT field takes in a number representing the temperature in Fereignheit and returns the temperature in Celsius</p>
+            </div>
+            <div class="form-group">
+            	<label>Enter temperature in Celsius :</label>
+                <input type="text" id="celValue" class="form-control" name="fnumb" placeholder="Celsius" autocomplete="off" required>
+            </div>
+            <div class="form-group">
+            	<label>Enter temperature in Fahrenheit :</label>
+                <input type="text" id="fahValue" class="form-control" name="snumb" placeholder="Fahrenheit" autocomplete="off" required>
+            </div>
+            <div class="small">Click button below for results</div><br>
+            <div class="form-group">
+            	<button type="submit" class="btn btn-primary btn-block btn-lg" name="submit" onclick="celFunction(), fahFunction()">Temperature</button>
+            </div>
+        </form>
+    </div>
+    
+    
+     
+    <script type="text/javascript" src="js/task_12.7.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

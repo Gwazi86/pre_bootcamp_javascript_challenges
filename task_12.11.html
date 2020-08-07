@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Task 12.11</title>
+
+<!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/font.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--CSS end-->
+
+</head>
+
+<body>
+	
+    <div class="input-form">
+    	<form>
+        	<div class="form-header">
+            	<h2>Task 12.11</h2>
+                <p>Takes two strings as input, and outputs the common characters/letters that they share. (For example, Input: ‘house’, ‘computers’ . Output: ‘Common letters: o, u, e, s’)</p>
+            </div>
+            <div class="form-group">
+            	<label>Enter FIRST string :</label>
+                <input type="text" id="fstrng" class="form-control" name="fstrng" placeholder="Enter string" autocomplete="off" required>
+            </div>
+            <div class="form-group">
+            	<label>Enter SECOND string :</label>
+                <input type="text" id="sstrng" class="form-control" name="sstrng" placeholder="Enter string" autocomplete="off" required>
+            </div>
+            <div class="small">Click button below for results</div><br>
+            <div class="form-group">
+            	<button type="submit" class="btn btn-primary btn-block btn-lg" name="submit" onclick="commChrs()">Click Me</button>
+            </div>
+        </form>
+    </div>
+    
+    
+     
+    <script type="text/javascript" src="js/task_12.11.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
